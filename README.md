@@ -11,7 +11,7 @@ rmkr/drsolver_node:latest
 
 You'll need to configure the following environmental variables:
 
- "TAILSCALE_AUTHKEY": Auth key to access your tailnet.  Highly suggest using tags and limiting connectivity to just your DrServer node on port 8080.
+ "TAILSCALE_AUTHKEY": Auth key to access your tailnet.  Highly suggest using tags and or the tailscale ACL to limit connectivity to just your DrServer node on port 8080.
  
   "DRSERVER_IP_ADDRESS": The tailscale IP address of your DrServer.  It won't work with the FQDN.
   
