@@ -6,6 +6,7 @@ It expands on the base image by adding in Tailscale and proxychains to faciliate
 
 Below is a link to the built image.  I've also included the raw dockerfile for anyone who wants to modify.
 <https://hub.docker.com/r/rmkr/drsolver_node/>
+
 rmkr/drsolver_node:latest
 
 You'll need to configure the following environmental variables:
