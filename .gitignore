@@ -1,0 +1,19 @@
+
+
+# fork: local credentials and agent/runtime state, never source.
+.env
+.env.*
+!.env.example
+!.env.template
+!*.env.template
+*.key
+*.pem
+id_rsa*
+id_ed25519*
+auth.json
+LOGIN.json
+*cookies*
+sessions/
+memories/
+logs/
+.claude/settings.local.json

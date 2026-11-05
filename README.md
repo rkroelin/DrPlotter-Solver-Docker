@@ -18,3 +18,10 @@ You'll need to configure the following environmental variables:
   "DRPLOTTER_CLIENT_TOKEN": your DrPlotter Client Token.
 
 The dockerfile includes some basic health checks for when the image boots.
+
+## Owner-maintained repository checks and approvals
+
+<!-- fork: local governance pointer; upstream documentation remains above. -->
+This is a Docker recipe for a remotely deployed solver. Merging saves what may later be built/deployed; no automatic workflow is present. Runtime auth keys and client tokens belong outside git. No offline test/build runner is established, and no image build/run or tailnet change is authorized by this governance update.
+
+See [AGENTS.md](AGENTS.md) and the shared standards at `~/Project standards/README.md` and `Owner approval.md`. No settings, deployment or runtime acceptance is established by this documentation change.
